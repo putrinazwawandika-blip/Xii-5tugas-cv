@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Nazwa Wandika Putri</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f1ed;
+            color: #3e3530;
+            padding: 30px 15px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: white;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+        }
+
+        header {
+            background: #715b50;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header img {
+            width: 145px;
+            height: 145px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #e8d8ca;
+            margin-bottom: 18px;
+        }
+
+        header h1 {
+            font-size: 30px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin-top: 8px;
+            color: #eee2d9;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        section {
+            margin-bottom: 27px;
+        }
+
+        h2 {
+            color: #715b50;
+            font-size: 20px;
+            margin-bottom: 13px;
+            border-bottom: 2px solid #d9c5b5;
+            padding-bottom: 8px;
+        }
+
+        .data {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 12px;
+            line-height: 1.7;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #715b50;
+        }
+
+        ul {
+            padding-left: 22px;
+            line-height: 1.9;
+        }
+
+        .skill {
+            display: inline-block;
+            background: #eee5de;
+            color: #715b50;
+            padding: 9px 16px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        footer {
+            background: #715b50;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 500px) {
+            header h1 {
+                font-size: 23px;
+            }
+
+            main {
+                padding: 22px;
+            }
+
+            .data {
+                grid-template-columns: 1fr;
+                gap: 2px;
+                margin-bottom: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <img src="foto-formal.jpg" alt="Foto Formal Nazwa">
+        <h1>NAZWA WANDIKA PUTRI</h1>
+        <p>Student | Creative | Teamwork</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Profil Pribadi</h2>
+            <p>
+                Saya adalah seorang pelajar yang memiliki semangat
+                untuk belajar, mengembangkan kemampuan diri, serta
+                mendapatkan pengalaman baru. Saya juga senang
+                bekerja sama dan berinteraksi dalam sebuah tim.
+            </p>
+        </section>
+
+        <section>
+            <h2>Data Diri</h2>
+
+            <div class="data">
+                <span class="label">Nama</span>
+                <span>Nazwa Wandika Putri</span>
+
+                <span class="label">Umur</span>
+                <span>17 Tahun</span>
+
+                <span class="label">Alamat</span>
+                <span>Rancamanyar</span>
+
+                <span class="label">Tanggal Lahir</span>
+                <span>29 November 2008</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Hobi</h2>
+            <ul>
+                <li>Membaca</li>
+                <li>Mendengarkan Musik</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Pengalaman Organisasi & Ekstrakurikuler</h2>
+            <ul>
+                <li>Ekstrakurikuler Basket</li>
+                <li>Ekstrakurikuler Paskibra</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Keahlian</h2>
+            <span class="skill">Kerja Sama Tim</span>
+            <span class="skill">Komunikasi</span>
+            <span class="skill">Disiplin</span>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 Nazwa Wandika Putri | Curriculum Vitae
+    </footer>
+
+</div>
+
+</body>
+</html>
+
